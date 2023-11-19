@@ -1,0 +1,313 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	scroll-behavior: smooth;
+}
+
+header {
+	background: #191970;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.store {
+	margin-right: auto;
+	display: flex;
+    justify-content: center;
+	
+}
+
+.store-img {
+	width: 50px;
+	height: 40px;
+}
+
+.store-title {	
+	padding: 10px;
+	cursor: pointer;
+	transition: all .5s ease 0s;	
+}
+
+.store:hover {
+	color: orange;
+	transform: rotate(2deg);
+	background-color: aqua;
+	border-radius: 10px;
+	
+}
+
+.folowme {
+    flex-wrap: wrap;
+	margin-right: 10px;
+	border: none;
+	font-size: 25px;
+	padding: 8px 16px;
+	border-radius: 8px;
+	background-color: orange;
+	cursor: pointer;
+}
+
+.folowme:hover {
+    flex-wrap: wrap;
+	color: orange;
+	transition: all .5s ease 0s;
+	background-color: aqua;
+	border-radius: 5px;
+}
+nav ul {
+	display: flex;
+	padding: 10px;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	transition: all .5s ease 0s;
+	background-color: aqua;
+	border-radius: 5px;
+	
+}
+
+p:hover {
+    color: orange;
+	transition: all .5s ease 0s;
+	background-color: aqua;
+	border-radius: 5px; 
+}
+
+.background {
+    flex-wrap: wrap;
+    background-image: url('topup.webp');
+    background-size: cover;
+}
+
+.topuppusing {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-color: rgb(230, 11, 44);
+    background-size: 100%;
+    color: white;
+    padding: 50px;
+    margin-top: 20px;
+    opacity: .9;
+}
+
+.bighome {
+    background-color: #191970;
+    flex-wrap: wrap;
+    color: aliceblue;
+    border: 1px solid black;
+    opacity: .9;
+}
+
+.img-jokirank {
+    width: 200px;   
+}
+
+.img-topup {
+    width: 200px;
+}
+
+.topupdm {
+    flex-wrap: wrap;
+    border: black;
+    border-block-start-color: black;
+}
+.pilihan {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+.jumblahdm {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.total {
+    flex-wrap: wrap;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+}
+.input-total {
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+    cursor: pointer; 
+}
+
+.nickname {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 30px;
+    width: 100%;
+}
+
+input {
+    flex-wrap: wrap;
+    width: 200px;
+    height: 30px; 
+}
+
+.rumah {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0;
+	
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+	
+}
+
+
+.title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bidang {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.img {
+	width: 100%;
+	max-width:380px;
+	height: auto;
+	padding: 10px;
+}
+
+.projek {
+	background-image: url('assets/foto/melissa.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px;
+	height: 100vh;
+	
+}
+
+.sacc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #191970;
+	color: white;
+}
+
+.support {
+	margin-top: 10px;
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.card-item {
+	text-align: center;
+	width: 25%;
+	background-color: #FDF5E6;
+	color: black;
+	padding: 6px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	padding: 2px;
+}
+
+.card-title {
+	font-size: 20px;
+	font-weight: bolder;
+    color: black;
+    cursor: pointer;
+	
+}
+
+.card-bidang {
+	font-size: 13px;
+	margin-top: 5px;
+    color: black;
+}
+
+footer {
+	flex-wrap: wrap;
+	padding: 10px;
+	text-align: center;
+	background: #191970;
+	color: white;
+}
+
+@media screen and (max-width: 500px) {
+	.card {
+		flex-direction: column;
+		gap: 0;
+	}
+	.card-item {
+		width: 100%;
+		opacity: .9;
+	}
+	.intro {
+		margin-top: 20px;
+	}
+	.img {
+		padding: 0;
+	}
+	.rumah {
+		padding: 0;
+	}
+	
+	nav {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background: #191970;
+	}
+	
+	footer {
+		margin-bottom: 50px;
+	}
+}

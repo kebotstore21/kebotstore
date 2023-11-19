@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kebot Store</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="store">
+            <img src="joki.png" alt="logo" class="store-img" />
+            <h2 class="store-title" onclick="redirYoutube()">Jasa Joki</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#" onclick="redirWhatapp()">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="folowme" onclick="redirTiktok()">Follow Me</button>
+    </header>
+    <div class="background">
+        <li class="topupdm">
+            <h2 class="topuppusing">Open jasa joki ranket dan clasic</h2>
+            <div class="bighome">
+                <img src="img-joki.jpg" class="img-jokirank" />
+                <img src="diamond.jpeg" class="img-topup" />
+                <img src="jasa-img.jpg" class="img-jokirank" />
+                <img src="img-joki.jpg" class="img-jokirank" />
+                <img src="jokirank.jpeg" class="img-jokirank" />
+                <img src="diamond.jpeg" class="img-topup" />
+                <p2 class="pilihan">Silakan masukan data di bawah ini!</p2>
+                <div>
+                    <form class="nickname">
+                        <label for="username">Start Rank</label><br>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="pwd">Finis Rank</label><br>
+                        <input type="password" id="pwd" name="pwd">
+                    </form>
+                </div>
+                <form action="/action_page.php" class="jumblahdm">
+                    <select id="TopUP" name="TopUp" class="total">
+                        <option value="topup">all epik-legend =25k</option>
+                        <option value="topup">all legend-mytict =50k</option>
+                        <option value="topup">all mythich-honor=150k</option>
+                        <option value="topup">all honor-glory =250k</option>
+                        <option value="topup">glory-imortal=1jt</option>
+                        <option value="topup">star epik-legend =2k</option>
+                        <option value="topup">star legen-mythich =4k</option>
+                    </select>
+                    <input type="submit" onclick="alert('SELAMAT PENGISIAN DIAMOND BERHASIL')" class="input-total">
+                </form>
+            </div>
+        </li>
+    </div>
+    <script>
+        function redirTiktok() {
+            window.location.href = "https://www.tiktok.com/@anggaalfiansyah12"
+        }
+
+        function redirSociabuzz() {
+            window.location.href = "https://sociabuzz.com/melissatiktok21"
+        }
+
+        function redirWhatapp() {
+            window.location.href = "https://wa.me/+6282113590221"
+        }
+        function redirYoutube() {
+            window.location.href = "https://www.youtube.com/channel/UC27lXLfVGLFEpL5nd_poaHA"
+        }
+    </script>
+</body>
+
+</html>

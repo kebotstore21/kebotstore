@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kebot Store</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="store">
+            <img src="youtube.png" alt="logo" class="store-img" />
+            <h2 class="store-title" onclick="redirYoutube()">Melissa Tiktok</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#JASA TOPUP">JASA/TOPUP</a></li>
+                <li><a href="#" onclick="redirWhatapp()">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="folowme" onclick="redirTiktok()">Follow Me</button>
+    </header>
+    <div class="rumah">
+        <div class="intro">
+            <p class="title">Halo, Angga Alfiansyah Here..!</p>
+            <p class="bidang">Content creator, Live streaming Tiktok.</p>
+            <img src="angga.jpg" class="img" />
+        </div>
+    </div>
+    <div class="projek">
+        <div class="sacc">
+            <p class="title">Saya adalah content creator.</p>
+            <p class="bidang">Live terus tapi tidak terkenal.</p>
+            <div class="support">
+                <button class="folowme" onclick="redirSociabuzz()">Support Me</button>
+            </div>
+        </div>
+        <div class="rumah">
+            <div class="card" id="JASA TOPUP">
+                <div class="card-item">
+                    <img src="diamon.png" alt="icon 1" class="icon" />
+                    <a href="website.html">
+                        <p class="card-title">Top up Diamond</p>
+                        <p class="card-bidang">Melayani pengisian diamond Mobile Legend termurah.</p>
+                    </a>
+                </div>
+                <div class="card-item">
+                    <img src="joki.png" alt="icon 2" class="icon" />
+                    <a href="joki.html">
+                        <p class="card-title">Open Joki Rank</p>
+                        <p class="card-bidang">Melayani jasa joki ranked/clasic termurah dan terpercaya.</p>
+                    </a>
+                </div>
+                <div class="card-item">
+                    <img src="rating.png" alt="icon 3" class="icon" />
+                    <p class="card-title">869 Review.</p>
+                    <p class="card-bidang">semua sangat senang dan banyak testimoni yang kalian dapa lihat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy Melissa Tiktok webside 2023</p>
+    </footer>
+    <script>
+        function redirTiktok() {
+            window.location.href = "https://www.tiktok.com/@anggaalfiansyah12"
+        }
+
+        function redirSociabuzz() {
+            window.location.href = "https://sociabuzz.com/melissatiktok21"
+        }
+
+        function redirWhatapp() {
+            window.location.href = "https://wa.me/+6282113590221"
+        }
+        function redirYoutube() {
+            window.location.href = "https://www.youtube.com/channel/UC27lXLfVGLFEpL5nd_poaHA"
+        }
+    </script>
+</body>
+
+</html>
